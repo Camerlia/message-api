@@ -1,0 +1,15 @@
+### GET REQUEST
+
+GET http://localhost:3000/message
+
+
+### POST REQUEST
+
+POST http://localhost:3000/message
+Content-Type: application/json
+
+{"content": "Hi there"}
+
+
+### GET MESSAGE
+GET http://localhost:3000/message/409
